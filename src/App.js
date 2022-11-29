@@ -33,7 +33,7 @@ function App() {
       <div className='container-fluid col-lg-11 col-md-11 col-sm-4 pt-2 normalDiv'>
         {allGuess && allGuess.length!==0 && allGuess.map((guess)=>(
           <li>
-            {guess.name} - {guess.age}
+            {guess.name} - {guess.age!==null?guess.age:0}
           </li>
       ))}
       </div>
