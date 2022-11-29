@@ -1,0 +1,12 @@
+.grad-header{
+    background: linear-gradient(90deg, rgba(19,115,212,1) 36%, rgba(191,221,232,1) 81%);
+    padding:10px;
+}
+.normalDiv{
+    font-size: 18px;
+    font-weight: bold;
+}
+.smallDiv{
+    font-weight: bold;
+    font-size: 15px;
+}
